@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Quiz & Weather App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Interactive Quiz & Weather App</h1>
+        </header>
+
+        <main>
+            <!-- Quiz Section -->
+            <section id="quiz-section" class="card">
+                <h2>Interactive Quiz</h2>
+                <div id="quiz-container">
+                    <div id="question-container">
+                        <p id="question"></p>
+                        <div id="options-container"></div>
+                    </div>
+                    <div id="quiz-controls">
+                        <button id="next-btn" class="btn">Next Question</button>
+                        <div id="score">Score: <span id="score-value">0</span></div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Weather Section -->
+            <section id="weather-section" class="card">
+                <h2>Weather Information</h2>
+                <div id="weather-container">
+                    <div class="search-container">
+                        <input type="text" id="city-input" placeholder="Enter city name">
+                        <button id="search-btn" class="btn">Search</button>
+                    </div>
+                    <div id="weather-info"></div>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; 2025 Interactive Quiz & Weather App</p>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html> 
